@@ -1948,6 +1948,7 @@ class ToolHandles(object):
             return np.argmin(dist), np.min(dist)
         else:
             return 0, np.sqrt(np.sum(diff ** 2))
+# Location to add new UI But need to refactor code in order to support feature
 
 
 class RectangleSelector(_SelectorWidget):
